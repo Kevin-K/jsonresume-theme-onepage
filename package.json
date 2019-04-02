@@ -15,7 +15,12 @@
   "bugs": {
     "url": "https://github.com/ainsleychong/jsonresume-theme-onepage/issues"
   },
+  "scripts":{
+    "postinstall": "./node_modules/.bin/resume export resume.json"
+  },
   "homepage": "https://github.com/ainsleychong/jsonresume-theme-onepage",
   "main": "index.js",
-  "devDependencies": {}
+  "devDependencies": {
+    "resume-cli": "^1.1.2"
+  }
 }

@@ -2,7 +2,7 @@ body {
   background: #EEEEEE;
   font: 13px "Times New Roman", Times, sans-serif;
   line-height: 1.4;
-  margin: 40px 0;
+  margin: 20px 0;
 }
 em {
   color: #999;
@@ -23,7 +23,7 @@ a {
 #resume {
   margin: 0 auto;
   max-width: 600px;
-  padding: 40px 100px;
+  padding: 40px 60px;
   background: #fff;
   border: 1px solid #ccc;
   box-shadow: 2px 2px 4px #aaa;
@@ -106,7 +106,7 @@ a {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 60em) {
   body {
     margin: 0;
     font-size: 14px;
